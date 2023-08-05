@@ -1,81 +1,28 @@
- R Programming for Statistical Analysis Documentation
+# R Programming for Statistical Analysis Documentation
+
 Welcome to the documentation for using R programming for statistical analysis! This guide will help you get started with R, a powerful programming language and environment for statistical computing and graphics. Whether you're new to R or looking to deepen your understanding, this documentation will provide you with essential information and examples for performing statistical analysis using R.
 
-Table of Contents
-Introduction to R
-Getting Started
-Data Manipulation
-Descriptive Statistics
-Hypothesis Testing
-Regression Analysis
-Data Visualization
-Resources
-Introduction to R
+## Table of Contents
+
+1. [Introduction to R](#introduction-to-r)
+2. [Getting Started](#getting-started)
+3. [Data Manipulation](#data-manipulation)
+4. [Descriptive Statistics](#descriptive-statistics)
+5. [Hypothesis Testing](#hypothesis-testing)
+6. [Regression Analysis](#regression-analysis)
+7. [Data Visualization](#data-visualization)
+8. [Resources](#resources)
+
+## Introduction to R
+
 R is an open-source programming language and software environment designed for statistical analysis, data visualization, and data manipulation. It was developed by statisticians and data scientists for a wide range of applications, from basic data analysis to complex statistical modeling.
 
-Getting Started
-To start using R, you need to install it on your computer. You can download R from the R Project website. Additionally, it's recommended to use an integrated development environment (IDE) for R, such as RStudio, which provides a user-friendly interface and various tools for coding and visualization.
+## Getting Started
+
+To start using R, you need to install it on your computer. You can download R from the [R Project website](https://www.r-project.org/). Additionally, it's recommended to use an integrated development environment (IDE) for R, such as [RStudio](https://www.rstudio.com/), which provides a user-friendly interface and various tools for coding and visualization.
 
 After installing R and RStudio, you're ready to start writing and running R code. Create a new script or R Markdown document to write and execute your code.
 
-Data Manipulation
-R offers a variety of packages and functions for data manipulation. You can import data from various formats, clean and preprocess it, and perform operations like filtering, merging, and reshaping. Commonly used packages include dplyr and tidyr.
+## Data Manipulation
 
-Example of data filtering using dplyr:
-
-R
-Copy code
-library(dplyr)
-
-data <- read.csv("data.csv")
-filtered_data <- data %>%
-  filter(age > 25 & gender == "Female")
-Descriptive Statistics
-R allows you to calculate basic descriptive statistics for your data, such as mean, median, standard deviation, and more. The summary() function provides a quick overview of the dataset's statistics.
-
-Example of calculating mean and median:
-
-R
-Copy code
-data <- c(15, 20, 25, 30, 35)
-mean_value <- mean(data)
-median_value <- median(data)
-Hypothesis Testing
-Statistical hypothesis testing is a fundamental aspect of data analysis. R provides functions for conducting various hypothesis tests, such as t-tests, ANOVA, and chi-square tests.
-
-Example of conducting a t-test:
-
-R
-Copy code
-group1 <- c(28, 30, 32, 34, 36)
-group2 <- c(25, 27, 29, 31, 33)
-t_test_result <- t.test(group1, group2)
-Regression Analysis
-R is widely used for regression analysis, which involves modeling relationships between variables. You can perform linear regression, logistic regression, and more using built-in functions.
-
-Example of linear regression:
-
-R
-Copy code
-data <- read.csv("data.csv")
-model <- lm(y ~ x1 + x2, data = data)
-summary(model)
-Data Visualization
-R offers diverse tools for creating compelling data visualizations. The ggplot2 package is particularly popular for creating customized and publication-quality plots.
-
-Example of creating a scatter plot using ggplot2:
-
-R
-Copy code
-library(ggplot2)
-
-data <- read.csv("data.csv")
-ggplot(data, aes(x = age, y = weight)) +
-  geom_point() +
-  labs(title = "Scatter Plot of Age vs. Weight")
-Resources
-R Documentation: Official manuals and documentation for R.
-RStudio Cheatsheets: Handy cheatsheets for various R packages and concepts.
-R for Data Science: An online book that teaches data analysis using R.
-ggplot2 Documentation: Comprehensive documentation for the ggplot2 package.
-Congratulations on embarking on your journey with R programming for statistical analysis! This documentation provides you with a solid foundation to explore further and tackle more advanced topics in the world of R and data analysis. Happy coding!
+R offers a variety of packages and functions for data manipulation. You can import data from various formats, clean and preprocess it, and perform operations like filtering, merging, and reshaping. Commonly used packages include `dplyr` and `tidyr`.
