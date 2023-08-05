@@ -128,7 +128,7 @@ const config: DocsThemeConfig = {
       <div className="flex w-full flex-col items-center sm:items-start">
        
         <p className="mt-6 text-xs">
-          © {new Date().getFullYear()} Mrinal.
+          © {new Date().getFullYear()} Mrinal. All rights reserved.
         </p>
       </div>
     )
