@@ -47,7 +47,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/mrinalcs/documentation'
   },
-  docsRepositoryBase: 'https://github.com/mrinalcs/documentation',
+  docsRepositoryBase: 'https://github.com/mrinalcs/documentation/tree/main/docs',
   useNextSeoProps() {
     const { asPath } = useRouter()
     if (asPath !== '/') {
