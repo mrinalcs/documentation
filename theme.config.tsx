@@ -135,4 +135,13 @@ const config: DocsThemeConfig = {
   }
 }
 
+
+
+const nextraTheme = {
+
+  gitTimestamp: {
+    hide: true,
+    // ... other options
+  }
+};
 export default config
