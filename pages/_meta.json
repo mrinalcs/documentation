@@ -10,5 +10,10 @@
   "about": {
     "title": "About",
     "type": "page"
+  },
+  "404": {
+    "title": "Page Not Found",
+    "type": "page",
+    "hideFromSearch": true
   }
 }
