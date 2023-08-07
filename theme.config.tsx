@@ -52,7 +52,7 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     if (asPath !== '/') {
       return {
-        titleTemplate: '%s – Nextra'
+        titleTemplate: '%s – Mrinal'
       }
     }
   },
@@ -137,11 +137,18 @@ const config: DocsThemeConfig = {
 
 
 
-const nextraTheme = {
-
-  gitTimestamp: {
-    hide: true,
-    // ... other options
-  }
+ 
+const CustomGitTimestamp = ({ timestamp }) => {
+  return null; // This component won't render anything
 };
-export default config
+
+const themeConfig = {
+  gitTimestamp: CustomGitTimestamp,
+};
+ 
+const mergedConfig = {
+  ...config,
+  ...themeConfig,
+};
+
+export default mergedConfig

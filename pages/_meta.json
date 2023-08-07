@@ -1,19 +1,37 @@
 {
   "index": {
     "title": "Home",
-    "type": "page"
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "company": {
+    "title": "Programming",
+    "type": "menu",
+    "items": {
+      "python": {
+        "title": "Python",
+        "href": "/python"
+      },
+      "r-programming": {
+        "title": "R Programming",
+        "href": "r-programming"
+      }
+    }
   },
   "python": {
     "title": "Python",
-    "type": "page"
+    "theme": {
+      "breadcrumb": false
+    }
   },
   "about": {
     "title": "About",
-    "type": "page"
-  },
-  "404": {
-    "title": "Page Not Found",
     "type": "page",
-    "hideFromSearch": true
+    "theme": {
+      "typesetting": "article"
+    }
   }
 }

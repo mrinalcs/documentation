@@ -1,14 +1,141 @@
- # Simple Python Program
+ # Basic
+These are just some of the basic examples in Python. As you progress, you can delve into more advanced concepts like file handling, error handling, object-oriented programming, and libraries for specific data analysis .
 
-## Introduction
-This program calculates the sum of two numbers.
+### Hello World
+```py copy
+print("Hello, World!")
+```
 
-## Input
-num1 = 5
-num2 = 3
+### Variables and Data Types:
+```python copy showLineNumbers
+# Integer
+age = 25
 
-## Process
-sum_result = num1 + num2
+# Floating-point number
+height = 5.9
 
-## Output
-print("The sum of", num1, "and", num2, "is:", sum_result)
+# String
+name = "Alice"
+
+# Boolean
+is_student = True
+```
+
+
+### Basic Math Operations:
+```python copy showLineNumbers
+a = 10
+b = 5
+
+sum_result = a + b
+difference = a - b
+product = a * b
+division = a / b
+modulus = a % b
+exponentiation = a ** b
+```
+
+### Conditional Statements:
+```python copy showLineNumbers
+age = 18
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+```
+
+
+### Loops:
+```python copy showLineNumbers
+# While loop
+count = 0
+while count < 5:
+    print("Count:", count)
+    count += 1
+
+# For loop
+for i in range(5):
+    print("Value:", i)
+```
+
+
+### Lists:
+```python copy showLineNumbers
+fruits = ["apple", "banana", "orange"]
+print(fruits[0])  # Output: "apple"
+fruits.append("grape")
+```
+
+
+### Functions:
+```python copy showLineNumbers
+def greet(name):
+    return "Hello, " + name
+
+message = greet("Alice")
+print(message)  # Output: "Hello, Alice"
+```
+
+
+### Classes and Objects:
+```python copy showLineNumbers
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
+    def bark(self):
+        return "Woof!"
+
+my_dog = Dog("Buddy")
+print(my_dog.name)  # Output: "Buddy"
+print(my_dog.bark())  # Output: "Woof!"
+```
+
+
+### Input and Output:
+```python copy showLineNumbers
+name = input("Enter your name: ")
+print("Hello, " + name)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+1. Statements and Indentation:
+Unlike many other programming languages that use curly braces {} or semicolons ; to delineate code blocks, Python uses indentation to indicate the structure of the code. Indentation is crucial for defining blocks of code, such as in loops and functions. This practice enhances readability but also demands consistency.
+
+2. Variables and Data Types:
+In Python, you can create variables to store data. Variables don't need to be explicitly declared with a type; Python infers the data type based on the assigned value. Common data types include integers, floating-point numbers, strings, and booleans.
+
+3. Comments:
+Comments are essential for explaining code and making it more understandable to others (or even to yourself in the future). In Python, comments are denoted using the # symbol. Comments are ignored by the interpreter and are used to provide context or explanations within your code.
+
+4. Print Function:
+The print() function is used to display output in Python. It's a simple way to see the results of your code on the screen. You can pass variables, strings, and expressions to the print() function.
+
+5. Operators:
+Python supports various operators, including arithmetic, comparison, logical, and assignment operators. These operators allow you to perform calculations, compare values, and control the flow of your programs.
+
+6. Conditional Statements:
+Conditional statements are used to make decisions in your code. The if, elif, and else keywords allow you to execute different blocks of code based on certain conditions.
+
+7. Loops:
+Loops are used for iterating through a sequence of values or performing a task repeatedly. Python provides for loops and while loops to achieve this.
+
+8. Functions:
+Functions are blocks of code that can be reused multiple times. They allow you to encapsulate functionality and improve code organization. Defining a function involves using the def keyword, providing a function name, and specifying input parameters and a code block.
+
+9. Lists and Dictionaries:
+Lists and dictionaries are common data structures in Python. Lists are ordered collections of elements, and dictionaries are collections of key-value pairs. They play a crucial role in organizing and manipulating data.
+
+10. Input and Output:
+Python allows you to interact with users by receiving input and displaying output. The input() function is used to prompt the user for input, while the print() function displays output on the screen.
