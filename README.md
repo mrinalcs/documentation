@@ -4,4 +4,4 @@ Welcome to the documentation for using R programming for statistical analysis! T
  
 Using Nextra Docs Template
 ## Copyright 
-© 2023 [Mrinal](https://github.com/mrinalcs). All rights reserved.
+© 2023 Mrinal . All rights reserved.
